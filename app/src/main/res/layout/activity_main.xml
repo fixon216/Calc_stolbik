@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#0E1116">
+    <com.example.stolbik.PaperView
+        android:id="@+id/paperView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2" />
+    <LinearLayout
+        android:id="@+id/keypad"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:background="#0A0D11"
+        android:padding="4dp">
+        <LinearLayout style="@style/KeyRow">
+            <Button style="@style/KeyAccent" android:text="C" />
+            <Button style="@style/KeyAccent" android:text="⌫" />
+            <Button style="@style/KeyOp" android:text="÷" />
+            <Button style="@style/KeyOp" android:text="×" />
+        </LinearLayout>
+        <LinearLayout style="@style/KeyRow">
+            <Button style="@style/Key" android:text="7" />
+            <Button style="@style/Key" android:text="8" />
+            <Button style="@style/Key" android:text="9" />
+            <Button style="@style/KeyOp" android:text="−" />
+        </LinearLayout>
+        <LinearLayout style="@style/KeyRow">
+            <Button style="@style/Key" android:text="4" />
+            <Button style="@style/Key" android:text="5" />
+            <Button style="@style/Key" android:text="6" />
+            <Button style="@style/KeyOp" android:text="+" />
+        </LinearLayout>
+        <LinearLayout style="@style/KeyRow">
+            <Button style="@style/Key" android:text="1" />
+            <Button style="@style/Key" android:text="2" />
+            <Button style="@style/Key" android:text="3" />
+            <Button style="@style/KeyEq" android:text="=" />
+        </LinearLayout>
+        <LinearLayout style="@style/KeyRow">
+            <Button style="@style/Key" android:layout_weight="2" android:text="0" />
+            <Button style="@style/Key" android:layout_weight="1" android:text="," />
+            <Button style="@style/Key" android:layout_weight="1" android:text="00" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

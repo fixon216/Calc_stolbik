@@ -1,0 +1,37 @@
+﻿<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">#0E1116</item>
+        <item name="android:colorAccent">#FFD54F</item>
+    </style>
+    <style name="KeyRow">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="Key">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:background">#1E2730</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="KeyOp" parent="Key">
+        <item name="android:background">#F57C00</item>
+        <item name="android:textSize">26sp</item>
+    </style>
+    <style name="KeyAccent" parent="Key">
+        <item name="android:background">#37474F</item>
+        <item name="android:textColor">#FFD54F</item>
+    </style>
+    <style name="KeyEq" parent="Key">
+        <item name="android:background">#FFD54F</item>
+        <item name="android:textColor">#1B1B1B</item>
+        <item name="android:textSize">26sp</item>
+    </style>
+</resources>
